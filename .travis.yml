@@ -1,5 +1,6 @@
 language: cpp
 compiler: clang
 script:
+  - mkdir bin
   - make
   - make test
